@@ -8,7 +8,9 @@ const port=process.env.PORT||5000;
 app.use(cors());
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:5173',"https://final-project-2-e4f67.web.app","https://final-project-2-e4f67.firebaseapp.com"],
+  origin: ['http://localhost:5173',
+  "https://assignment-12-client-seven.vercel.app","https://assignment-12-client-1elh923xa-shahinaaktershimas-projects.vercel.app","https://assignment-12-client-git-main-shahinaaktershimas-projects.vercel.app"
+  ],
   credentials: true,
 }))
 
